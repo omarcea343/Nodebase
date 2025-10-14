@@ -1,0 +1,6 @@
+procs:
+    inngest:
+        shell: "yarn inngest:dev"
+
+    next:
+        shell: "yarn dev"
