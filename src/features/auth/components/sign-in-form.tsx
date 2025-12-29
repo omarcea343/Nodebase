@@ -6,6 +6,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "@/components/ui/input";
 import { authClient } from "@/lib/auth-client";
 import { zodResolver } from "@hookform/resolvers/zod";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
@@ -63,9 +64,11 @@ export const SignInForm = () => {
 							<div className="grid gap-6">
 								<div className="flex flex-col gap-4">
 									<Button variant="outline" className="w-full" type="button" disabled={isPending}>
+										<Image src="/github.svg" alt="GitHub" width={20} height={20} />
 										Sign in with GitHub
 									</Button>
 									<Button variant="outline" className="w-full" type="button" disabled={isPending}>
+										<Image src="/google.svg" alt="Google" width={20} height={20} />
 										Sign in with Google
 									</Button>
 								</div>
