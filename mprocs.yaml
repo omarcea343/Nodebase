@@ -1,5 +1,5 @@
 procs:
   inngest:
-    cmd: ["cmd", "/c", "pnpm inngest:dev"]
+    cmd: ["cmd", "/c", "pnpm run inngest:dev"]
   next:
-    cmd: ["cmd", "/c", "pnpm dev"]
+    cmd: ["cmd", "/c", "pnpm run dev"]
