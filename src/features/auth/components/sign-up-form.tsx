@@ -76,7 +76,7 @@ export const SignUpForm = () => {
 										Continue with Github
 									</Button>
 									<Button variant="outline" type="button" className="w-full" disabled={isPending}>
-										<Image src="/google.svg" alt="Github" width={20} height={20} />
+										<Image src="/google.svg" alt="Google" width={20} height={20} />
 										Continue with Google
 									</Button>
 								</div>
