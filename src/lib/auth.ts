@@ -11,7 +11,6 @@ export const auth = betterAuth({
 	database,
 	emailAndPassword: {
 		enabled: true,
-		autoSignIn: true,
 	},
 	session: {
 		cookieCache: {
